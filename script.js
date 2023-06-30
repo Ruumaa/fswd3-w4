@@ -91,6 +91,14 @@ if (ganjilMin == genapMin) {
   console.log(`Min lebih besar array genap`);
 }
 
+if (ganjilMax == genapMax) { 
+  console.log(`Array memiliki nilai maximum yang sama`)
+} else if (ganjilMax > genapMax){
+  console.log(`Max lebih besar Array ganjil`)
+} else {
+  console.log(`Max lebih besar Array genap`)
+}
+
 //perbandingan total
 if (ganjilTotal == genapTotal) {
   console.log(`Array memiliki nilai minimum yang sama`);
